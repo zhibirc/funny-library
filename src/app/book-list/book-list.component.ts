@@ -8,9 +8,24 @@ import { Book } from './book/book.component';
 })
 
 export class BookListComponent implements OnInit {
-    public books: Array<Book> = [];
+    classList: string[] = ['book-list'];
+    books: Book[];
 
     constructor () {
+    }
+
+    addBook ( book: Book ): Book {
+        this.books.push(book);
+
+        return book;
+    }
+
+    deleteBook ( id: number ): void {
+        this.books.splice(this.books.findIndex(item => item.id === id), 1);
+    }
+
+    count (): number {
+        return this.books.length;
     }
 
     // fires after component is ready, it's lifecycle hook

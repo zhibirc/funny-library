@@ -6,20 +6,24 @@ import {AppComponent} from './app.component';
 import {BookListComponent} from './book-list/book-list.component';
 import {BookComponent} from './book-list/book/book.component';
 import {ButtonComponent} from './button/button.component';
+import {ModalAddComponent} from './modal-add/modal-add.component';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
     declarations: [
         AppComponent,
         BookListComponent,
         BookComponent,
-        ButtonComponent
+        ButtonComponent,
+        ModalAddComponent
     ],
     imports: [
         BrowserModule,
-        AppRoutingModule
+        AppRoutingModule,
+        MatIconModule
     ],
     providers: [],
     bootstrap: [AppComponent]
 })
-export class AppModule {
-}
+
+export class AppModule {}

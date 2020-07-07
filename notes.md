@@ -8,6 +8,10 @@
 - component level encapsulation: access only for component variables inside template, components encapsulate all their data;
 - decorators (@Component) for generic classes, just functions that accept metadata and configure a specific component;
 - any updates to the class data will update the template display;
+- different predefined Date formats (similar to Moment.js);
+- rendering is the area for wide optimization;
+- remove dependency of Zone.js is the additionally advanced optimization possibility;
+- integration with RxJS;
 
 ### Start work
 
