@@ -9,5 +9,7 @@ import {Component, Output, EventEmitter} from '@angular/core';
 export class AppComponent {
     title = 'Library';
 
-    @Output() addBook = new EventEmitter();
+    addBook (): void {
+        console.log('adding book works');
+    }
 }

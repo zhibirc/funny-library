@@ -1,4 +1,9 @@
 .book-list {
     width: 1280px;
     overflow-x: hidden;
+
+    &__no-data {
+        font-size: 24px;
+        text-align: center;
+    }
 }

@@ -1,5 +1,9 @@
-<div [classList]="classList">
+<div *ngIf="books.length; else noBooks" [classList]="classList">
     <app-book *ngFor="let book of books">
         {{ book }}
     </app-book>
 </div>
+
+<ng-template #noBooks>
+    <p class="book-list__no-data">There are no added books yet. Be the first who add some!</p>
+</ng-template>

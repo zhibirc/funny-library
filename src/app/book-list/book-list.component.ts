@@ -9,7 +9,7 @@ import { Book } from './book/book.component';
 
 export class BookListComponent implements OnInit {
     classList: string[] = ['book-list'];
-    books: Book[];
+    books: Book[] = [];
 
     constructor () {
     }
