@@ -2,6 +2,8 @@
 
 - it's complex solution, no additional tools required;
 - knowledge of TS is helpful, but not required;
+- approximately 2 major versions each year;
+- two-way data binding to achieve synchronization between model and view (significantly decrease of DOM manipulations);
 - all entities in Angular is a class (the similar approach as for components in SPA framework);
 - lifecycle hooks;
 - string interpolation {{ something }};
@@ -15,6 +17,8 @@
 
 ### Start work
 
+- update if needed (`ng update @angular/cli @angular/core`);
+- version 10.0.0 (`ng new --strict`, date range picker, warnings for CJS, updates for TS/TSLib/TSLint, other deps, update `.browserslistrc`);
 - Angular CLI;
 - Angular CLI installs all required packages;
 - Wizard:
@@ -29,3 +33,9 @@
 
 - image gallery: use only <img [src]="picture"> and change "picture" public property, all changes appeared in UI;
 - easy keydown handle with "(keydown.control.shift.enter)=";
+- current bundle size (`ng build --prod`) is 271.63 KB (in a compare, release bundle of SPA framework is 326.56 KB), the "average" is ~250 KB;
+
+### Links
+
+[made with angular](https://www.madewithangular.com/)
+[live example](https://stackblitz.com/angular/nknyovevygv)
