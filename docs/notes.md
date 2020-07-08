@@ -1,12 +1,14 @@
 ### Theses/concepts
 
+- support from **Google**, **Microsoft**;
 - it's complex solution, no additional tools required;
 - knowledge of TS is helpful, but not required;
 - approximately 2 major versions each year;
+- RxJS/DI ot-of-the-box;
 - two-way data binding to achieve synchronization between model and view (significantly decrease of DOM manipulations);
 - all entities in Angular is a class (the similar approach as for components in SPA framework);
 - lifecycle hooks;
-- string interpolation {{ something }};
+- string interpolation `{{ something }}`;
 - component level encapsulation: access only for component variables inside template, components encapsulate all their data;
 - decorators (@Component) for generic classes, just functions that accept metadata and configure a specific component;
 - any updates to the class data will update the template display;
@@ -31,7 +33,7 @@
 
 ### Practice and usage examples
 
-- image gallery: use only <img [src]="picture"> and change "picture" public property, all changes appeared in UI;
+- image gallery: use only `<img [src]="picture">` and change "picture" public property, all changes appeared in UI;
 - easy keydown handle with "(keydown.control.shift.enter)=";
 - current bundle size (`ng build --prod`) is 271.63 KB (in a compare, release bundle of SPA framework is 326.56 KB), the "average" is ~250 KB;
 
@@ -40,3 +42,4 @@
 [made with angular](https://www.madewithangular.com/)
 [live example 1](https://stackblitz.com/angular/nknyovevygv)
 [live example 2](https://stackblitz.com/angular/yongarnoxkq)
+[community chat](https://t.me/angular_ru)
