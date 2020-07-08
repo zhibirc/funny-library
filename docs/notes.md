@@ -38,4 +38,5 @@
 ### Links
 
 [made with angular](https://www.madewithangular.com/)
-[live example](https://stackblitz.com/angular/nknyovevygv)
+[live example 1](https://stackblitz.com/angular/nknyovevygv)
+[live example 2](https://stackblitz.com/angular/yongarnoxkq)
