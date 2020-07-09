@@ -14,7 +14,8 @@
 - any updates to the class data will update the template display;
 - different predefined Date formats (similar to Moment.js);
 - rendering is the area for wide optimization;
-- remove dependency of Zone.js is the additionally advanced optimization possibility;
+- remove dependency of Zone.js (or animations, forms etc.) is the additionally advanced optimization possibility;
+- it's possible to select compilation mode: AOT/JIT to optimize the resulting bundle (e.g. JSX uses AOT);
 - integration with RxJS;
 - add native listeners via `ElementRef` interface and `nativeElement` property (alternative approach);
 - native `i18n` support, **ngx-translate**, **Transloco** (library) -- localization solutions;
