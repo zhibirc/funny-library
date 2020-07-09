@@ -1,4 +1,23 @@
-<div [classList]="classList">
-    <input placeholder="Enter Book Title" maxlength="100" required>
-    <textarea cols="30" rows="10" placeholder="Enter Book Text" required></textarea>
+<!-- or with interpolation in other way -->
+<!-- <div [className]="baseClassName"> -->
+<div class="{{baseClassName}}">
+    <input
+        class="{{baseClassName}}__field-title"
+        #title
+        placeholder="Enter Book Title"
+        maxlength="100"
+        required
+    >
+
+    <textarea
+        class="{{baseClassName}}__field-text"
+        #text
+        placeholder="Enter Book Text"
+        required
+    ></textarea>
+
+    <button
+        class="{{baseClassName}}__button-create"
+        (click)="title.value.trim() && text.value.trim() && create({title: title.value, text: text.value})"
+    >Create!</button>
 </div>

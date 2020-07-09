@@ -16,6 +16,7 @@
 - rendering is the area for wide optimization;
 - remove dependency of Zone.js is the additionally advanced optimization possibility;
 - integration with RxJS;
+- add native listeners via `ElementRef` interface and `nativeElement` property (alternative approach);
 
 ### Start work
 
@@ -40,6 +41,9 @@
 ### Links
 
 [made with angular](https://www.madewithangular.com/)
+
 [live example 1](https://stackblitz.com/angular/nknyovevygv)
+
 [live example 2](https://stackblitz.com/angular/yongarnoxkq)
+
 [community chat](https://t.me/angular_ru)
