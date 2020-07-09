@@ -1,4 +1,4 @@
-import {Component, Output, EventEmitter} from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
     selector: 'app-root',
@@ -7,9 +7,11 @@ import {Component, Output, EventEmitter} from '@angular/core';
 })
 
 export class AppComponent {
+    isModalAddActive = false;
     title = 'Library';
 
-    addBook (): void {
-        console.log('adding book works');
+    openModalAdd (): void {
+        this.isModalAddActive = true;
+        console.log('open modal window');
     }
 }
