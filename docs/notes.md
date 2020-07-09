@@ -17,6 +17,7 @@
 - remove dependency of Zone.js is the additionally advanced optimization possibility;
 - integration with RxJS;
 - add native listeners via `ElementRef` interface and `nativeElement` property (alternative approach);
+- native `i18n` support, **ngx-translate**, **Transloco** (library) -- localization solutions;
 
 ### Start work
 
@@ -29,8 +30,7 @@
     - CSS/SCSS/Sass/Less or Stylus.
 - angular.json -- all necessary configuration options, serve, bundle etc.;
 - npm start/ng serve;
-- Angular Live Development Server starts to host newly created add;
-- accept JSX in a template of component instead of separate file;
+- Angular Live Development Server starts.
 
 ### Practice and usage examples
 

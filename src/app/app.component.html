@@ -3,5 +3,5 @@
 </h1>
 
 <app-book-list></app-book-list>
-<app-modal-add *ngIf="isModalAddActive"></app-modal-add>
+<app-modal-add [hidden]="!isModalAddActive"></app-modal-add>
 <app-button (click)="isModalAddActive || openModalAdd()"></app-button>
