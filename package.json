@@ -10,9 +10,11 @@
     "e2e": "ng e2e"
   },
   "private": true,
-  "dependencies": {
-  },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.0",
+    "@semantic-release/github": "^10.0.6",
+    "@semantic-release/release-notes-generator": "^14.0.0",
     "semantic-release": "^24.0.0"
   }
 }
